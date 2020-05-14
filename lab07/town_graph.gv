@@ -1,0 +1,16 @@
+graph G
+{
+        edge[color="gray54",fontcolor="blue",fontsize=12, len=5, penwidth=5.0];
+        node[color="indigo",fontsize=14];
+
+        Moscow -- Petersburg [label="705" color=green];
+        Moscow -- Rostov [label="1075" color=green];
+        Moscow -- Karsnodar [label="1353" color=green];
+        Moscow -- Ufa [label="1351" color=green];
+        Petersburg -- Rostov [label="818" color=green];
+        Petersburg -- Karsnodar [label="2066" color=green];
+        Petersburg -- Ufa [label="2052" color=green];
+        Rostov -- Karsnodar [label="283" color=green];
+        Rostov -- Ufa [label="1751" color=green];
+        Karsnodar -- Ufa [label="2022" color=green];
+}
